@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 @EnableEurekaServer
 @EnableAdminServer
+
 public class MyDashboardApplication {
 
 	public static void main(String[] args) {
