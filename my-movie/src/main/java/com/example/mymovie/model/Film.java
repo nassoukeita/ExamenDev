@@ -1,12 +1,19 @@
 package com.example.mymovie.model;
 
+import io.swagger.annotations.ApiModelProperty;
 public class Film {
+    @ApiModelProperty(notes = "Class of the film",name="name",required=true,value="test titre")
+    private String titre;
+    @ApiModelProperty(notes = "Class of the realisateur",name="realisateur",required=true,value="test realisateur")
+    private String realisateur;
+    @ApiModelProperty(notes = "Class of the acteur",name="acteur",required=true,value="test acteur")
+    private String acteur;
+    @ApiModelProperty(notes = "Class of the date",name="date",required=true,value="test date")
+    private int date;
 
 
-        String titre;
-        String realisateur;
-        String acteur;
-        int date;
+
+
 
 
     public Film (String titre, String realisateur, String acteur, int date) {
